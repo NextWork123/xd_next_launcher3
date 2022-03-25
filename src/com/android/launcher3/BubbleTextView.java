@@ -390,7 +390,7 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver,
     protected void applyIconAndLabel(ItemInfoWithIcon info) {
         if(mThemeAllAppsIcons) {
             boolean useTheme = mDisplay == DISPLAY_WORKSPACE || mDisplay == DISPLAY_FOLDER || mDisplay == DISPLAY_ALL_APPS
-                    || mDisplay == DISPLAY_TASKBAR;
+                    || mDisplay == DISPLAY_TASKBAR || mDisplay == DISPLAY_ALL_APPS;
             int flags = useTheme ? FLAG_THEMED : 0;
             if (mHideBadge) {
             flags |= FLAG_NO_BADGE;
