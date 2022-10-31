@@ -179,7 +179,7 @@ android_app {
     ],
     required: [
         "privapp_whitelist_com.android.launcher3",
-        "privapp_whitelist_octavi_launcher3.xml",
+        "privapp_whitelist_xdroid_launcher3.xml",
     ],
 
     jacoco: {
@@ -326,8 +326,8 @@ android_library {
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_octavi_launcher3.xml",
-    src: "privapp_whitelist_octavi_launcher3.xml",
+    name: "privapp_whitelist_xdroid_launcher3.xml",
+    src: "privapp_whitelist_xdroid_launcher3.xml",
     system_ext_specific: true,
     sub_dir: "permissions",
 }
